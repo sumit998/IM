@@ -7,7 +7,8 @@
 .navbar{
 	//border: 2px solid red;
 	width: 90%;
-	background-color: #C1CEB2;
+	//background-color: #C1CEB2;
+	background-color: #66717E;
 	margin-left: 5%;
 	border-radius: 50px;
 
@@ -17,13 +18,42 @@
 }
 ul.nav a:hover { 
 	color: #7373E1;
+	//color: #7373E1;
 	 }
 .nav-item:hover{
-    background-color: #6EA00C;
+    background-color: #104547;
+    //background-color: #6EA00C;
     border-radius: 50px;
 }
 #h{
 	margin-top: -30px;
 	height: 85%;
 	width: 100%;
+}
+.row{
+	margin-top: 1%;
+	border: 2px solid red;
+}
+.col-md-4{
+	border: 2px solid black;
+}
+.h2{
+	text-decoration: underline;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+#ProOne{
+	height: 70%;
+    width: 100%;
+}
+.pro-mx-auto{
+	margin-left: 1%;
+	width: 70%;
+	height: 50%;
+	margin-left:1%; 
+    border: 5px solid #74A31B;
+}
+.test{
+
 }
