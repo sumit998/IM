@@ -30,30 +30,4 @@ ul.nav a:hover {
 	height: 85%;
 	width: 100%;
 }
-.row{
-	margin-top: 1%;
-	border: 2px solid red;
-}
-.col-md-4{
-	border: 2px solid black;
-}
-.h2{
-	text-decoration: underline;
-	margin-top: 1%;
-	margin-bottom: 2%;
-	text-align: center;
-}
-#ProOne{
-	height: 70%;
-    width: 100%;
-}
-.pro-mx-auto{
-	margin-left: 1%;
-	width: 70%;
-	height: 50%;
-	margin-left:1%; 
-    border: 5px solid #74A31B;
-}
-.test{
-
-}
+#b{width: 500px;}
