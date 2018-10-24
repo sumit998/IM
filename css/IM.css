@@ -25,9 +25,12 @@ ul.nav a:hover {
     //background-color: #6EA00C;
     border-radius: 50px;
 }
-#h{
-	margin-top: -30px;
-	height: 85%;
-	width: 100%;
+
+.HeaderImage{
+	margin-top: -2%;
 }
-#b{width: 500px;}
+//test
+#imga{
+	height: 50%;
+	width: 10%
+}
