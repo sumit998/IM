@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .card{
 	//border: 2px solid red;
     margin: 0 auto;
@@ -6,11 +7,24 @@
 #a{
 	padding-bottom: 10px;
 	//border: 2px solid red;
+=======
+#top{
+	height: 15%;
+	margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    background-attachment: fixed;
+>>>>>>> f632aaf5c016ec1be5b43534029bd9867e435447
 }
 .navbar{
 	//border: 2px solid red;
 	width: 90%;
+<<<<<<< HEAD
 	background-color: #C1CEB2;
+=======
+	//background-color: #C1CEB2;
+	background-color: #66717E;
+>>>>>>> f632aaf5c016ec1be5b43534029bd9867e435447
 	margin-left: 5%;
 	border-radius: 50px;
 
@@ -20,6 +34,7 @@
 }
 ul.nav a:hover { 
 	color: #7373E1;
+<<<<<<< HEAD
 	 }
 .nav-item:hover{
     background-color: #6EA00C;
@@ -73,4 +88,26 @@ ul.nav a:hover {
 .col-xl{
 	margin: 2% 2% 2% 2%; 
     border: 2px solid green;	
+=======
+	//color: #7373E1;
+	 }
+.nav-item:hover{
+    background-color: #104547;
+    //background-color: #6EA00C;
+    border-radius: 50px;
+}
+
+.HeaderImage{
+	margin-top: -2%;
+}
+//test
+#imga{
+	height: 50%;
+	width: 10%
+}
+.footer{
+	background-color: black;
+	height: 40%;
+	margin-top: 40px;
+>>>>>>> f632aaf5c016ec1be5b43534029bd9867e435447
 }
