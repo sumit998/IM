@@ -35,3 +35,8 @@ ul.nav a:hover {
 	height: 50%;
 	width: 10%
 }
+.footer{
+	background-color: black;
+	height: 40%;
+	margin-top: 40px;
+}
