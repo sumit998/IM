@@ -5,9 +5,9 @@
     margin-left: 1%;
 }
 .navbar{
-	//border: 2px solid red;
+	border: 2px solid grey;
 	width: 90%;
-	//background-color: #C1CEB2;
+	background-color: #C1CEB2;
 	background-color: #66717E;
 	margin-left: 5%;
 	border-radius: 50px;
@@ -18,18 +18,18 @@
 }
 ul.nav a:hover { 
 	color: #7373E1;
-	//color: #7373E1;
+	color: #7373E1;
 	 }
 .nav-item:hover{
     background-color: #104547;
-    //background-color: #6EA00C;
+    background-color: #6EA00C;
     border-radius: 50px;
 }
 
 .HeaderImage{
 	margin-top: -2%;
 }
-//test
+test
 #imga{
 	height: 50%;
 	width: 10%
