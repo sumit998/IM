@@ -120,3 +120,11 @@ test
 #carouselExampleIndicators{
 	margin-top: -2%;
 }
+/* Hide vertical share bar when screen is less than 980 pixels wide */
+@media screen and (max-width: 980px) {
+    .ata-v { display: none; }
+}
+/* Hide horizontal share bar when screen is less than 980 pixels wide */
+@media screen and (min-width: 980px) {
+    .ata-h { display: none; }
+}
