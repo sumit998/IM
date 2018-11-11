@@ -144,7 +144,9 @@ test
   margin-top: 15px;
   margin-bottom: 15px;
 }
-=======
+
+
+/*our team starts from here*/
 .our-team{
     border: 1px solid #d3d3d3;
     position: relative;
@@ -237,4 +239,3 @@ test
     .our-team{ margin-bottom: 20px; }
 }
 License Terms
->>>>>>> 7b7b9ee24a66bec1e8c9039cb3d4d1e1e1e1e336
