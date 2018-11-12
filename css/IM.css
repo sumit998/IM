@@ -129,7 +129,7 @@ test
 @media screen and (min-width: 980px) {
     .ata-h { display: none; }
 }
-<<<<<<< HEAD
+
 
 .btn:focus, .btn:active, button:focus, button:active {
   outline: none !important;
@@ -147,95 +147,69 @@ test
 
 
 /*our team starts from here*/
-.our-team{
-    border: 1px solid #d3d3d3;
-    position: relative;
-    overflow: hidden;
-}
 .our-team img{
     width: 100%;
     height: auto;
+    margin-bottom: 25px;
 }
-.our-team .team-content{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 45px 18px;
-    background: rgba(0,0,0,0.7);
-    transform: translateX(-100%);
-    transition: all 0.20s ease 0s;
+.our-team .team-prof h3{
+    margin: 0;
 }
-.our-team:hover .team-content{
-    transform: translateX(0);
+.our-team .team-prof h3 a {
+    color: #ea6153;
+    font-size: 24px;
+    font-weight: normal;
+    transition: all 0.2s linear 0s;
 }
-.our-team .team-content .post-title{
-    font-size: 18px;
-    color: #fff;
+.our-team .team-prof h3 a:hover{
+    color:#a4a7aa;
+}
+.our-team .team-prof span{
+    color:#a4a7aa;
+    display:block;
+    margin-bottom:10px;
     text-transform: uppercase;
+    font-size:12px;
 }
-.our-team .team-content .post{
-    font-size: 14px;
-    color: #cb95e1;
-    display: block;
-    margin-bottom: 20px;
+.our-team .team-prof .description{
+    color:#8a8a8a;
+    margin-bottom:23px;
+    font-size:13px;
+    line-height: 20px;
 }
-.our-team .description{
-    font-size: 14px;
-    line-height: 25px;
-    color: #fff;
-    margin-bottom: 20px;
-}
-.our-team .team_social{
-    margin:0;
+.our-team .social-links{
+    list-style:none;
     padding:0;
-    list-style: none;
+    margin:0;
 }
-.our-team .team_social li{
-    display: inline-block;
-    margin-right: 5px;
+.our-team .social-links li{
+    display:inline-block;
 }
-.our-team .team_social li a{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid #f5f5f5;
-    font-size: 17px;
-    color: #f5f5f5;
-    line-height: 40px;
-    text-align: center;
-    display: inline-block;
-    transition: border 0.3s ease 0s;
+.our-team .social-links li a{
+    padding: 0 5px;
+    display:block;
+    transition:all 0.2s linear 0s;
 }
-.our-team .team_social li a:hover{
-    border-color: transparent;
+.our-team .social-links li a:hover{
+    color: #6b7a87;
 }
-.our-team .team-prof{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    text-align: right;
-    padding: 20px 16px;
-    background: rgba(0,0,0,0.7);
-    transform: translateX(0);
-    transition: all 0.20s ease 0s;
+.our-team .social-links li .fa-facebook{
+    color:#5567a9;
 }
-.our-team:hover .team-prof{
-    transform: translateX(100%);
+.our-team .social-links li .fa-twitter{
+    color:#08c1f3;
 }
-.our-team .team-prof .post-title{
-    font-size: 18px;
-    color: #fff;
-    margin: 0 0 8px 0;
-    text-transform: uppercase;
+.our-team .social-links li .fa-google-plus{
+    color:#cb2027;
 }
-.our-team .team-prof .post{
-    font-size: 14px;
-    color: #cb95e1;
-    margin-bottom: 0;
+.our-team .social-links li .fa-dribbble{
+    color:#f26798;
 }
-@media only screen and (max-width: 990px) {
-    .our-team{ margin-bottom: 20px; }
+.our-team  .social-links li .fa-pinterest-p{
+    color:#cb2027;
 }
-License Terms
+@media only screen  and (max-width: 990px){
+    .our-team{
+        margin-bottom:20px;
+    }
+}
