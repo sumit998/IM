@@ -22,9 +22,12 @@ ul.nav a:hover {
 	color: #7373E1;
 	 }
 .nav-item:hover{
-    background-color: #104547;
-    background-color: #6EA00C;
-    border-radius: 50px;
+    background-color: lightblue;
+}
+
+#a:hover{
+   background-color: #6EA00C;
+   border-radius: 50px;
 }
 
 .HeaderImage{
